@@ -31,6 +31,7 @@ jobs:
           --mode=onefile
           --mingw64
           --assume-yes-for-downloads
+          --include-package=kasa.cli
           --include-package-data=kasa
           --include-package-data=tzdata
           --output-dir=build
