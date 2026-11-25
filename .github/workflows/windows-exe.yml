@@ -35,7 +35,8 @@ jobs:
           --include-package-data=tzdata
           --output-dir=build
           --output-filename=kasa_cli.exe
-          kasa_cli/__main__.py
+          --python-flag=-m
+          kasa_cli
 
       - name: Smoke test executable
         run: .\build\kasa_cli.exe --help

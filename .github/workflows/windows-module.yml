@@ -44,7 +44,7 @@ jobs:
       # Build python script into a stand-alone exe
       - uses: jimkring/python-script-to-exe@v0.2.0
         with:
-          script-name: kasa.py
+          script-name: kasa_discover.py
           module: true
   
       # Uploads artifacts
